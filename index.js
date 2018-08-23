@@ -6,9 +6,9 @@ var googleAuth = require('google-auth-library');
 
 //以下的引號內請輸入申請LineBot取得的各項資料，逗號及引號都不能刪掉
 var bot = linebot({
-  channelId: '請輸入LineBot的channelId',
-  channelSecret: '請輸入LineBot的channelSecret',
-  channelAccessToken: '請輸入LineBot的channelAccessToken'
+  channelId: '1602257088',
+  channelSecret: '1cbf9a94cec6fae1abfe48683cf7122f',
+  channelAccessToken: '+Kucxuz2/uJB9OowcgcB3NSEf3rKGG71L+snVA0ed3oSPEYQjDmKd7gdrmbK8aMiyDGF9qRDtQWApyPKFcywzvADeU8lBfrOpakV91E7GuClR93fqFdKW7SB3cotM59pjuBY5tYKl4woSS2yYEOWGwdB04t89/1O/w1cDnyilFU='
 });
 
 //底下輸入client_secret.json檔案的內容
