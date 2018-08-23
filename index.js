@@ -6,10 +6,9 @@ var googleAuth = require('google-auth-library');
 
 //以下的引號內請輸入申請LineBot取得的各項資料，逗號及引號都不能刪掉
 var bot = linebot({
-  channelId: '1602257088',
-  channelSecret: '1cbf9a94cec6fae1abfe48683cf7122f',
-',
-  channelAccessToken: '+Kucxuz2/uJB9OowcgcB3NSEf3rKGG71L+snVA0ed3oSPEYQjDmKd7gdrmbK8aMiyDGF9qRDtQWApyPKFcywzvADeU8lBfrOpakV91E7GuClR93fqFdKW7SB3cotM59pjuBY5tYKl4woSS2yYEOWGwdB04t89/1O/w1cDnyilFU='
+  channelId: '請輸入LineBot的channelId',
+  channelSecret: '請輸入LineBot的channelSecret',
+  channelAccessToken: '請輸入LineBot的channelAccessToken'
 });
 
 //底下輸入client_secret.json檔案的內容
@@ -22,7 +21,7 @@ var oauth2Client = new auth.OAuth2(myClientSecret.installed.client_id,myClientSe
 oauth2Client.credentials =請將sheetsapi.json檔案的內容放在這裡，前後不能加引號
 
 //試算表的ID，引號不能刪掉
-var mySheetId='1Gx2AkiUdTW8yFDk4_ynn6-QNIPYwICkTiNQlfmSsYPA';
+var mySheetId='請輸入試算表的ID編號';
 
 var myQuestions=[];
 var users=[];
