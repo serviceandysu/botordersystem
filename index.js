@@ -21,7 +21,7 @@ var oauth2Client = new auth.OAuth2(myClientSecret.installed.client_id,myClientSe
 oauth2Client.credentials =請將sheetsapi.json檔案的內容放在這裡，前後不能加引號
 
 //試算表的ID，引號不能刪掉
-var mySheetId='請輸入試算表的ID編號';
+var mySheetId='1Gx2AkiUdTW8yFDk4_ynn6-QNIPYwICkTiNQlfmSsYPA';
 
 var myQuestions=[];
 var users=[];
