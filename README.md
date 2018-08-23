@@ -30,7 +30,7 @@ const line = require('node-line-bot-api')
 
 // init with auth
 line.init({
-  accessToken: '{YOUR_ACCESS_TOKEN}',
+  accessToken: '{249P8WysFwyn7jWTU9Ibl8lVi465CaxqiIDAkOwScPP8hNUxKcXH5j+XN+O3jGzHyDGF9qRDtQWApyPKFcywzvADeU8lBfrOpakV91E7GuBisqZMJ96i6RrQOLENZ3Ef1GWKWOJ9by7uONRsWoJrNgdB04t89/1O/w1cDnyilFU=}',
   // (Optional) for webhook signature validation
   channelSecret: '{YOUR_CHANNEL_SECRET}'
 })
